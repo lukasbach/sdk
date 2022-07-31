@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "out",
+    "module": "CommonJS",
+    "target": "es5",
+    "lib": ["dom", "es2018"],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true
+  },
+  "include": ["src"]
+}
