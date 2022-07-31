@@ -1,7 +1,7 @@
 {
-  "name": "$packagename$",
+  "name": "@lukasbach/sdk",
   "version": "0.0.1",
-  "description": "$packagename$ library",
+  "description": "@lukasbach/sdk library",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "esnext": "lib/esnext/index.js",
@@ -24,14 +24,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukasbach/$packagename$.git"
+    "url": "git+https://github.com/lukasbach/sdk.git"
   },
   "author": "Lukas Bach <npm@lukasbach.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukasbach/$packagename$/issues"
+    "url": "https://github.com/lukasbach/sdk/issues"
   },
-  "homepage": "https://github.com/lukasbach/$packagename$#readme",
+  "homepage": "https://github.com/lukasbach/sdk#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
