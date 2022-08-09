@@ -6,8 +6,9 @@
     "lib": ["dom", "es2018"],
     "esModuleInterop": true,
     "jsx": "react",
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "Node"
   },
   "include": ["src"]
 }

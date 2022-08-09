@@ -26,10 +26,6 @@ module.exports = {
   ],
   "rules": {
     "react/prop-types": "off",
-    "indent": [
-      "error",
-      2
-    ],
     "quotes": [
       "error",
       "double"
