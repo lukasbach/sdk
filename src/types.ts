@@ -13,5 +13,5 @@ export interface SdkConfig {
     };
   };
 
-  telemetry?: {};
+  telemetry?: unknown;
 }
