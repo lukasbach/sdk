@@ -18,9 +18,11 @@
     "build:esm": "tsc -m es2015 --outDir lib/esm",
     "build:esnext": "tsc -m esnext --outDir lib/esnext",
     "build:types": "tsc -m commonjs --declaration --emitDeclarationOnly --outDir lib/types",
+    "build:storybook": "build-storybook",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepublish": "yarn build && yarn lint"
+    "prepublish": "yarn build && yarn lint",
+    "storybook": "start-storybook -p 6006"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,17 @@
   },
   "homepage": "https://github.com/lukasbach/sdk#readme",
   "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.17",
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
     "babel-loader": "^8.2.5",
@@ -42,8 +55,9 @@
     "eslint-plugin-react": "^7.30.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
-    "typescript": "^4.7.4",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
   },
   "dependencies": {
     "uuid": "^8.3.2"
