@@ -1,0 +1,29 @@
+{
+  "privacy": {
+
+    "acceptall": "Accept all",
+    "rejectall": "Reject all",
+    "accept": "Accept",
+    "reject": "Reject",
+    "customize": "Learn more and customize",
+    "intro": "The following panel allows you to customize your consent preferences for any tracking technology used to help us achieve the features and activities described below. To learn more about how these trackers help us and how they work, refer to the cookie policy. You may review and change your choices at any time. Please be aware that denying consent for a particular purpose may make related features unavailable.",
+    "short": "Allow the use of cookies on this browser?",
+    "cookiepolicy": "See full cookie policy",
+    "necessary": {
+      "header": "Strictly necessary",
+      "description": "These trackers are used for activities that are strictly necessary to operate or deliver the service you requested from us and, therefore, do not require you to consent."
+    },
+    "basic": {
+      "header": "Basic interactions & functionalities",
+      "description": "These trackers enable basic interactions and functionalities that allow you to access selected features of our service and facilitate your communication with us."
+    },
+    "experience": {
+      "header": "Experience enhancement",
+      "description": "These trackers help us to provide a personalized user experience by improving the quality of your preference management options, and by enabling the interaction with external networks and platforms."
+    },
+    "advertising": {
+      "header": "Targeting & Advertising",
+      "description": "These trackers help us to deliver personalized marketing content to you based on your behavior and to operate, serve and track ads."
+    }
+  }
+}
